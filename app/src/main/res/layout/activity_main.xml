@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <ListView
+        android:id="@+id/lvView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"></ListView>
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolDetail"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="#C480D8FF" />
+
+    <com.synnapps.carouselview.CarouselView
+        android:id="@+id/crView"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        app:fillColor="#3333"
+        app:pageColor="#3333"
+        app:radius="6dp"
+        app:strokeColor="#FF777777"
+        app:strokeWidth="1dp" />
+
+</LinearLayout>
